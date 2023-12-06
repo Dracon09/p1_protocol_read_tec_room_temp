@@ -110,4 +110,4 @@ response = command_handler.send_p1_command(0x06, b'\x04')  # Example: Read A Poi
 decoded_response = command_handler.decode_read_point_response(response)
 
 # Send the "Get Point Information (0AH)" command
-command_handler.send_get_point_info_command(report_number=1, format_byte=0b00010001)
+# command_handler.send_get_point_info_command(report_number=1, format_byte=0b00010001)
